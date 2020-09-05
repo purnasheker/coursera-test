@@ -1,0 +1,123 @@
+  /***********************large Devices****************************/
+     @media (min-width: 992px) {
+       #leftbox { 
+
+                float: left;  
+                background: brown; 
+                width: 30%; 
+                height: 280px; 
+                margin: 20px;
+                margin-color: white;
+                padding: 3px;
+            } 
+            #middlebox{ 
+                float: left;  
+                background: brown; 
+                width: 30%; 
+                height: 280px; 
+                margin-color: white;
+                margin: 20px;
+                padding: 3px;
+            } 
+            #rightbox{ 
+                float: left; 
+                background: brown; 
+                width: 30%; 
+                height: 280px; 
+                margin-color: white;
+                margin: 20px;
+                padding: 3px;
+            } 
+            h1{ 
+                color: white; 
+                text-align:center; 
+            } 
+            div{
+                color: white;
+                background: pink;
+            }
+}
+/************************medium devices***********************/
+@media (min-width: 768px) and (max-width: 991px) {
+ #leftbox {     
+                float: left;
+                background: brown; 
+                width: 37%; 
+                height: 250px;
+                margin-color: white;
+                margin: 3px;
+                margin-left: 80px;
+                margin-right: 30px;
+                padding: 10px;
+            } 
+            #middlebox {  
+                float: right;
+                background: brown; 
+                width: 37%; 
+                height: 250px; 
+                margin-color: white;
+                margin: 3px;
+                margin-right: 80px;
+                padding: 10px;
+            } 
+            #rightbox{ 
+                float: left; 
+                background: brown; 
+                width: 42%; 
+                height: 250px; 
+                margin-color: white;
+                margin: 6px;
+                margin-top: 30px;
+                margin-left: 240px;
+                margin-right: 200px;
+                padding: 20px;
+            } 
+            h1{ 
+                color: white; 
+                text-align: center; 
+            } 
+            div{
+                color: white;
+                background:pink;
+            }
+}
+/*********************************small Devices******************************/
+@media (max-width: 767px){
+       #leftbox {  
+                float: left;
+                background: brown;
+                margin-color: white; 
+                width: 50%; 
+                height: 280px; 
+                margin: 20px;
+                margin-color: white;
+                padding: 3px;
+            } 
+            #middlebox {  
+                float: left;
+                background: brown; 
+                margin-left: 100px;
+                width: 50%; 
+                height: 280px; 
+                margin: 20px;
+                margin-color: white;
+                padding: 3px;
+            } 
+            #rightbox{  
+                float: left;
+                background: brown; 
+                width: 50%; 
+                height: 280px;
+                margin: 20px;
+                margin-color: white;
+                padding: 3px;
+            } 
+            h1{ 
+                color: white; 
+                text-align: center; 
+            } 
+            div{
+                color: white;
+                background: pink;
+            }
+}
